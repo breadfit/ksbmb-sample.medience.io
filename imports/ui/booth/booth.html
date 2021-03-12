@@ -1,0 +1,94 @@
+<template name="booth">
+    {{> header}}
+
+    <section id="contents" class="exReadWrap">
+        <h3 class="screen_out">Exhibition</h3>
+        <!-- title -->
+        <div class="titleBox">
+            <span><img src="{{booth.company.logo}}" alt="기업 로고" /></span>
+            <h4>{{booth.company.eng}}</h4>
+            <p class="company_kor">{{booth.company.kor}}</p>
+            <ul>
+                <li>
+                    <img src="{{PublicURL}}/icon/talk.png" height="29px">
+                </li>
+                <li>
+                    <img src="{{PublicURL}}/icon/star.png" height="29px">
+                </li>
+                <li>
+                    <img src="{{PublicURL}}/icon/upload.png" height="29px">
+                </li>
+            </ul>
+        </div>
+        <!--// top title -->
+        <!-- readBox -->
+        <section class="readBox">
+            <!-- 글 내용 -->
+            <img src="/booth/content.png"/>
+            <!--// 글 내용 -->
+            <!-- 홍보 영상 -->
+            <article style="padding-top: 30px">
+                {{#if booth.video}}
+                <video src="{{booth.video}}" width="100%" controls></video>
+                {{/if}}
+            </article>
+            <!--// 홍보 영상 -->
+            <!-- 외부파일 링크 -->
+            {{#if booth.link}}
+                <article class="externalBox">
+                    {{#each booth.link}}
+                        <p><a target="_blank" href="{{url}}">{{label}} : {{url}}</a></p>
+                    {{/each}}
+                </article>
+            {{/if}}
+            <!--// 외부파일 링크 -->
+            <!-- 첨부파일 -->
+            <article class="downloadBox">
+                <h4>{{booth.company.kor}} 브로셔</h4>
+                <p>브로셔를 다운받으실 수 있습니다.</p>
+                <a target="_blank" href="{{booth.brochure}}" download="{{booth.brochure_filename}}">{{booth.brochure_filename}}</a>
+            </article>
+            <!--// 첨부파일 -->
+            <!-- 이벤트 -->
+            <aside class="evtBox">
+                <h4>이벤트</h4>
+                <p>스탬프를 받고 다양한 혜택을 받아보세요.</p>
+                <a class="get_stamp btn_common btn_blue btn_middle" value="{{booth._id}}">스탬프 받기</a>
+            </aside>
+            <!--// 이벤트 -->
+            <!-- 회사 및 담당자 정보 -->
+            <article class="btmInfo">
+                <span class="logo"><img src="{{booth.company.logo}}" alt="기업 로고" /></span>
+                <p>{{booth.company.kor}}</p>
+                <ul class="company">
+                    <li class="bold"><a href="{{booth.site.homepage}}">{{booth.site.homepage}}</a></li>
+                    <li><em class="bold">Tel. </em>{{booth.company.tel}}</li>
+                    <li>{{booth.company.address}}</li>
+                </ul>
+                <ul class="person">
+                    <li>담당자. {{booth.manager.name}} {{booth.manager.position}}</li>
+                    <li><em class="bold">Mobile. </em>{{booth.manager.tel}}</li>
+                    <li><em class="bold">E-mail. </em>{{booth.manager.email}}</li>
+                </ul>
+                <ul class="btns">
+                    <li>
+                        <img src="{{PublicURL}}/icon/talk_black.png" height="29px">
+                    </li>
+                    <li>
+                        <img src="{{PublicURL}}/icon/star_black.png" height="29px">
+                    </li>
+                    <li>
+                        <img src="{{PublicURL}}/icon/upload_black.png" height="29px">
+                    </li>
+                </ul>
+            </article>
+            <!--// 회사 및 담당자 정보 -->
+        </section>
+        <!--// readBox -->
+        <!-- 후원 업체 부스 리스트 -->
+        {{> boothCardList}}
+        <!--// 후원 업체 부스 리스트 -->
+    </section>
+
+    {{> footer}}
+</template>

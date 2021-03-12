@@ -1,0 +1,9 @@
+<template name="boothCard">
+    <article class="go_booth">
+        <span class="thumb"><img src="{{company.thumb}}" alt="" /></span>
+        <p class="logo"><img src="{{company.logo}}" alt="기업 로고" /></p>
+        {{#if grade}}<p class="grade"><img src="{{PublicURL}}/icon/badge_{{grade}}.png" alt="{{grade}}" /></p>{{/if}}
+        <h6 class="name">{{company.kor}}</h6>
+        <p class="text">{{company.intro}}</p>
+    </article>
+</template>

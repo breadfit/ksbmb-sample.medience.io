@@ -1,0 +1,24 @@
+@font-face{
+	font-family:'GmarketSansL';
+	src:url("https://s3.ap-northeast-2.amazonaws.com/ksscr.2021/font/GmarketSansL.eot?#iefix") format('embedded-opentype'),
+	    url("https://s3.ap-northeast-2.amazonaws.com/ksscr.2021/font/GmarketSansL.ttf") format('truetype');
+	font-weight:normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family:'GmarketSansM';
+	src:url("https://s3.ap-northeast-2.amazonaws.com/ksscr.2021/font/GmarketSansM.eot?#iefix") format('embedded-opentype'),
+	    url("https://s3.ap-northeast-2.amazonaws.com/ksscr.2021/font/GmarketSansM.ttf") format('truetype');
+	font-weight:normal;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:'AppleSDGothicNeoM';
+	src:url("https://s3.ap-northeast-2.amazonaws.com/ksscr.2021/font/AppleSDGothicNeoM.eot?#iefix") format('embedded-opentype'),
+	    url("https://s3.ap-northeast-2.amazonaws.com/ksscr.2021/font/AppleSDGothicNeoM.ttf") format('truetype');
+	font-weight:normal;
+	font-style: normal;
+}

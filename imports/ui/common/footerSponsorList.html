@@ -1,0 +1,9 @@
+<template name="footerSponsorList">
+    <article class="sponsorWrap">
+        <ul>
+            {{#each sponsers}}
+                <li><a target="_blank" href="{{url}}"><img src={{img}} width="148px" alt="{{alt}}" /></a></li>
+            {{/each}}
+        </ul>
+    </article>
+</template>
