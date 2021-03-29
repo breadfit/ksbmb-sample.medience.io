@@ -7,22 +7,22 @@ Template.booth.helpers({
             "idx" : 8,
             "userId" : "XcA6umnBkRB6zcfMg",
             "company" : {
-            "kor" : "써모 피셔 사이언티픽 코리아㈜",
-                "eng" : "Thermo Fisher Scientific",
-                "tel" : "02-2023-0600",
-                "address" : "서울시 강남구 광평로 281, 수서오피스 빌딩 11층",
-                "intro" : "'글로벌 질량분석 기업'",
+            "kor" : "김해강소연구개발특구 빅드림웰바이오사업단",
+                "eng" : "INNOPOLIS",
+                "tel" : "055-320-3921",
+                "address" : "경남 김해시 인제로 197 본관 9층 빅드림웰바이오사업단",
+                "intro" : "",
                 "thumb" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksev.2020/booth/thumb/ksev_thumb_08.png",
                 "logo" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksev.2020/booth/icon/ksev_icon_08.png"
         },
             "manager" : {
-            "name" : "서정우",
+            "name" : "조아형",
                 "position" : "책임",
-                "tel" : "02-3420-8611",
-                "email" : "Joungwoo.seo@thermofisher.com"
+                "tel" : "010-8713-3921",
+                "email" : "ahforyou@inje.ac.kr"
         },
             "site" : {
-            "homepage" : "www.thermofisher.com",
+            "homepage" : "http://innopolis.inje.ac.kr",
                 "facebook" : "",
                 "instagram" : "",
                 "youtube" : "https://youtube.com/channel/UCTxqceNv1lRHpvZSYnEnCug",
@@ -30,8 +30,12 @@ Template.booth.helpers({
                 "etc" : "https://blog.naver.com/thermofisherkorea"
         },
             "content" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksev.2020/booth/content/thermofisher_content.png",
-            "brochure" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksev.2020/booth/content/thermofisher_brochure.pdf",
-            "video" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksev.2020/booth/content/thermofisher_video.mp4"
+            "brochure" : "/booth/innopolis_brochure.pdf",
+            "video" : [
+                {title: "소개 동영상 1", src: "https://medience.s3.ap-northeast-2.amazonaws.com/ksbmb.sample/video/1.mp4"},
+                {title: "소개 동영상 2", src: "https://medience.s3.ap-northeast-2.amazonaws.com/ksbmb.sample/video/2.mp4"},
+                {title: "소개 동영상 3", src: "https://medience.s3.ap-northeast-2.amazonaws.com/ksbmb.sample/video/3.mp4"},
+            ]
         }
 
         // console.log(booth);
