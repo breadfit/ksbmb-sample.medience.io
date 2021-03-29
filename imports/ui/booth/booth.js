@@ -30,7 +30,7 @@ Template.booth.helpers({
                 "etc" : "https://blog.naver.com/thermofisherkorea"
         },
             "content" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksev.2020/booth/content/thermofisher_content.png",
-            "brochure" : "/booth/innopolis_brochure.pdf",
+            "brochure" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksbmb.sample/innopolis_brochure.pdf",
             "video" : [
                 {title: "소개 동영상 1", src: "https://medience.s3.ap-northeast-2.amazonaws.com/ksbmb.sample/video/1.mp4"},
                 {title: "소개 동영상 2", src: "https://medience.s3.ap-northeast-2.amazonaws.com/ksbmb.sample/video/2.mp4"},
