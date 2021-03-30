@@ -44,6 +44,13 @@
             </div>
 
             <!--// 글 내용 -->
+            <!-- 홍보 이미지 -->
+            {{#each booth.image}}
+                <article style="padding-top: 30px">
+                    <img src="{{url}}" width="100%"/>
+                </article>
+            {{/each}}
+            <!--// 홍보 이미지 -->
             <!-- 홍보 영상 -->
             {{#each booth.video}}
                 <article style="padding-top: 30px">

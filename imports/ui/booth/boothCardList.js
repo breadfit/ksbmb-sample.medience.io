@@ -10,7 +10,7 @@ Template.boothCardList.helpers({
                 "_id" : "6HqRtbGNqaKxkh84B",
                 "idx" : 8,
                 "userId" : "XcA6umnBkRB6zcfMg",
-                "grade" : "diamond",
+                // "grade" : "diamond",
                 "company" : {
                     "kor" : "김해강소연구개발특구 빅드림웰바이오사업단",
                     "eng" : "INNOPOLIS",
@@ -38,6 +38,7 @@ Template.boothCardList.helpers({
                 "brochure" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksev.2020/booth/content/thermofisher_brochure.pdf",
                 "video" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksev.2020/booth/content/thermofisher_video.mp4"
             },
+/*
             {
                 "_id" : "tyoCKzYZTCiECKrM7",
                 "idx" : 2,
@@ -271,6 +272,8 @@ Template.boothCardList.helpers({
                 "content" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksev.2020/booth/content/panagene_content.png",
                 "brochure" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksev.2020/booth/content/panagene_brochure.pdf"
             }
+
+*/
         ];
 
         return boothsList;

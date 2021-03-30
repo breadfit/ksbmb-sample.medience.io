@@ -14,13 +14,13 @@ Template.booth.helpers({
                 "intro" : "",
                 "thumb" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksev.2020/booth/thumb/ksev_thumb_08.png",
                 "logo" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksev.2020/booth/icon/ksev_icon_08.png"
-        },
+            },
             "manager" : {
             "name" : "조아형",
                 "position" : "책임",
                 "tel" : "010-8713-3921",
                 "email" : "ahforyou@inje.ac.kr"
-        },
+            },
             "site" : {
             "homepage" : "http://innopolis.inje.ac.kr",
                 "facebook" : "",
@@ -28,9 +28,13 @@ Template.booth.helpers({
                 "youtube" : "https://youtube.com/channel/UCTxqceNv1lRHpvZSYnEnCug",
                 "twitter" : "",
                 "etc" : "https://blog.naver.com/thermofisherkorea"
-        },
+            },
             "content" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksev.2020/booth/content/thermofisher_content.png",
             "brochure" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksbmb.sample/innopolis_brochure.pdf",
+            "image" : [
+                {url: "https://medience.s3.ap-northeast-2.amazonaws.com/ksbmb.sample/image/1.png"},
+                {url: "https://medience.s3.ap-northeast-2.amazonaws.com/ksbmb.sample/image/2.png"},
+            ],
             "video" : [
                 {title: "소개 동영상 1", src: "https://medience.s3.ap-northeast-2.amazonaws.com/ksbmb.sample/video/1.mp4"},
                 {title: "소개 동영상 2", src: "https://medience.s3.ap-northeast-2.amazonaws.com/ksbmb.sample/video/2.mp4"},
