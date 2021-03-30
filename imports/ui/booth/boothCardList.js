@@ -17,7 +17,7 @@ Template.boothCardList.helpers({
                     "tel" : "010-8713-3921",
                     "address" : "경남 김해시 인제로 197 본관 9층 빅드림웰바이오사업단",
                     "intro" : "'Big Dream Well-bio Medicluster'",
-                    "thumb" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksev.2020/booth/thumb/ksev_thumb_08.png",
+                    "thumb" : "https://medience.s3.ap-northeast-2.amazonaws.com/ksbmb.sample/image/thumb.png",
                     "logo" : "/booth/logo.png"
                 },
                 "manager" : {
